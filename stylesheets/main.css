@@ -1,0 +1,29 @@
+html {
+  font-size: 1vw;
+}
+
+body {
+  text-align: center;
+}
+
+body p {
+  font-family: "Futura PT Demi";
+  font-size: 3rem;
+  text-align: center;
+  line-height: 3.6rem;
+}
+
+body p:first-of-type {
+  margin-top: 3vw;
+}
+
+body p:last-of-type {
+  font-family: "Futura PT Light";
+  font-size: 2.5rem;
+  color: #ef5933;
+}
+
+img {
+  width: 35%;
+  padding-bottom: 3vw;
+}
