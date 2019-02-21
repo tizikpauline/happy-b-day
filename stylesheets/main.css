@@ -27,3 +27,22 @@ img {
   width: 35%;
   padding-bottom: 3vw;
 }
+
+@media (max-width: 375px) {
+  body p {
+    font-size: 7rem;
+    line-height: 8.4rem;
+  }
+
+  body p:first-of-type {
+    margin-top: 10vw;
+  }
+
+  body p:last-of-type {
+    font-size: 6rem;
+  }
+
+  img {
+    width: 70%;
+  }
+}
