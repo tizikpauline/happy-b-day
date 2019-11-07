@@ -1,5 +1,6 @@
 html {
   font-size: 1vw;
+  background-color: #fcf0e4;
 }
 
 body {
@@ -24,25 +25,26 @@ body p:last-of-type {
 }
 
 img {
-  width: 35%;
+  width: 32%;
   padding-bottom: 3vw;
 }
 
 @media (max-width: 375px) {
   body p {
-    font-size: 7rem;
-    line-height: 8.4rem;
+    font-size: 8rem;
+    line-height: 9.6rem;
   }
 
   body p:first-of-type {
-    margin-top: 10vw;
+    margin-top: 45vw;
   }
 
   body p:last-of-type {
     font-size: 6rem;
+    margin-top: 5vw
   }
 
   img {
-    width: 70%;
+    width: 80%;
   }
 }
